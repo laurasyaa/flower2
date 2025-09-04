@@ -1,0 +1,65 @@
+/* General */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe6f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.bg-purple {
+  background-color: #a66cff !important; /* ungu pastel */
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: url("asset/images/bg-11.jpeg") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* biar teks kontras */
+}
+
+/* Overlay Hero */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(219, 120, 190, 0.4);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Section Backgrounds */
+#project,
+#profile,
+#skills,
+#contact {
+  background-color: #e9b1cc; /* pink muda */
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background: #a66cff; /* ungu */
+  color: white;
+}
